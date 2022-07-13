@@ -109,16 +109,22 @@ body{
     position:relative; 
     top:0px; 
     left:-30px;
+    transition: all 0.3s; 
+}
+.circle:hover{
+    transform: scale(1.1);
 }
 .imagem2{
     max-width: 700px;
     margin-top: 3rem;
+    
 }
 .dog{
     position:absolute; 
     right:80px;
-    
+   
 }
+
 
 
 .conteudo-secundario{
