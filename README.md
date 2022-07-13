@@ -11,7 +11,7 @@
 
 ## 🕹️ Índice 
 
-* [Landing Page Modelo](#🟡landing-page-petshop🟡)
+* [Landing Page (PetShop)](#🟡landing-page-petshop🟡)
 * [Badges](#badges)
 * [Índice](#🕹️-índice)
 * [Descrição do Projeto](#🌻-descrição-do-projeto)
