@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+body{
+    font-family: 'Monda', sans-serif;
+    font-size: 100%;
+    background: #EEEEEE;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;}
+
+/*Cabeçalho*/
+
+.logo{
+    font-family: 'Concert One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 70px;
+    color: #090E38;
+}
+.pesquisa{
+    width: 600px;
+    height: 37px;
+    background: #E9E3B1;
+    border-radius: 20px;
+    color: #6e6e6e;
+    text-align: left;
+    padding: 5px;
+    
+}
+.pesquisa-logo{
+    align-items: baseline;
+    margin-left: 10rem;
+    
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5rem;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+.menu-item{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #090E38;
+   transition: all 0.3s;
+}
+.menu-item:hover{
+    color: #94C1DB;
+}
+
+/*Main*/
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #e7e7e7 ;
+}
+.conteudo-principal{
+    /* Rectangle 2 */
+    background: radial-gradient(76.41% 249.67% at 10.84% 20.55%, rgba(82, 0, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%)
+     /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #94C1DB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 10px;
+}
+.principal-titulo{
+    font-family: 'Concert One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+.principal-subtitulo{
+    font-family: 'Monda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.imagem1{
+    max-width: 400px;
+    margin-top: 1.5rem;
+    
+}
+.circle{
+    position:relative; 
+    top:0px; 
+    left:-30px;
+}
+.imagem2{
+    max-width: 700px;
+    margin-top: 3rem;
+}
+.dog{
+    position:absolute; 
+    right:80px;
+    
+}
+
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 30px;
+    padding: 40px
+    
+}
+.secundario-titulo{
+    font-family: 'Concert One', cursive;
+    padding-top: 48px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #090E38;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-item{
+    width: 218px;
+    height: 305px;
+    background: radial-gradient(85.08% 85.08% at 17.44% 10.17%, rgba(255, 238, 82, 0.2) 0%, rgba(0, 0, 0, 0) 93.19%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #94C1DB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.card-item p{
+    padding: 20px;
+    color: #090E38;
+}
+.produto{
+    max-width: 400px;
+    padding: 20px;
+    align-items: center;
+}
+.btn{
+    background: linear-gradient(0deg, rgba(249, 200, 77, 0.2), rgba(249, 200, 77, 0.2)), #E9E3B1;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 20px;
+    width: 180px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #090E38;
+    align-items: center;
+    margin: 40px;
+    margin-left: 70px;
+    transition: all 0.3s;
+}
+.btn:hover{
+    background-color:  #94C1DB;
+    color: #e7e7e7;
+}
+
+
+
+/*Footer*/
+.rodape{
+    border-top:  1px solid #94C1DB;
+    margin: 20px;
+}
+.rodape-conteudo{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    
+}
+.rodape-titulo{
+    font-family: 'Concert One', cursive;
+    padding-top: 48px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #090E38; 
+}
+.rodape-paragrafo{
+    margin: 10px;
+    margin-left: 10px;
+    text-align: justify;
+    color: #2b2b2b;
+}
+.rodape-lista{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+.lista-item2{
+    display: flex;
+    padding-top: 1.5rem;
+    transition: all 0.3s;
+    font-weight: 700;
+    color: #090E38;
+    align-items: center;
+}
+.lista-item2:hover{
+    color: #94C1DB;
+}
